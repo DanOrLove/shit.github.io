@@ -1,7 +1,7 @@
 <?php
-$name = $_POST['name'];
-$phone = $_POST['phone'];
-$email = $_POST['email'];
+$name = $_GET['name'];
+$phone = $_GET['phone'];
+$email = $_GET['email'];
 $token = "8052032735:AAG87Af39FQ8_aE0WLUXvPvliLas7683Scg";
 $chat_id = "-4600503321";
 $arr = array(
